@@ -577,4 +577,16 @@ body {
   <p>Content will move, but the background stays in place.</p>
 </body>
 </html>
+```
+# 🌟 HTML Favicon
+
+A **favicon** is a small icon that appears in the **browser tab**, bookmarks, and history.  
+It helps identify a website easily.
+
+---
+
+## 🔹 Syntax
+```html
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+```
 
