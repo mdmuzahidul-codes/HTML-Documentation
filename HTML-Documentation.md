@@ -668,3 +668,15 @@ The `class` attribute is used to **assign one or more class names to an HTML ele
 ```html
 <tagname class="classname">Content</tagname>
 ```
+# 🌐 HTML `id` Attribute
+
+The `id` attribute is used to **assign a unique identifier to an HTML element**.  
+- Each `id` must be **unique within the HTML document**.  
+- Often used with **CSS** and **JavaScript** to style or manipulate a specific element.  
+
+---
+
+## 🔹 Syntax
+```html
+<tagname id="uniqueID">Content</tagname>
+```
