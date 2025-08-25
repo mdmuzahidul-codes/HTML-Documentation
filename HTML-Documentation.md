@@ -680,3 +680,15 @@ The `id` attribute is used to **assign a unique identifier to an HTML element**.
 ```html
 <tagname id="uniqueID">Content</tagname>
 ```
+# 🌐 HTML `<iframe>` Element
+
+The `<iframe>` element is used to **embed another HTML page** (or external content) inside the current page.  
+- Often used to embed **videos, maps, or other websites**.  
+- `<iframe>` is a **self-contained inline frame**.
+
+---
+
+## 🔹 Syntax
+```html
+<iframe src="URL" width="width" height="height" title="description"></iframe>
+```
