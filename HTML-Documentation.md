@@ -474,3 +474,80 @@ The `<img>` element is used to **embed images** in an HTML page.
 ```html
 <img src="image.jpg" alt="Description of image">
 ```
+# 🌐 HTML/CSS Background Image
+
+Background images are not added with `<img>` but via **CSS** using the `background-image` property.  
+- You can set background images for any HTML element like `<body>`, `<div>`, etc.  
+
+---
+
+## 🔹 Syntax
+```css
+selector {
+  background-image: url("image.jpg");
+}
+```
+# 🎨 CSS Background Properties
+
+## 1. `background-size: cover;`
+- Scales the background image to **cover the entire element**, keeping aspect ratio.  
+- Some parts of the image may be cropped.  
+
+### Example:
+```css
+body {
+  background-image: url("bg.jpg");
+  background-size: cover;
+}
+```
+# 🎨 CSS `background-repeat` Property
+
+The `background-repeat` property defines **if/how a background image repeats**.  
+
+---
+
+## 🔹 `no-repeat`
+- Prevents the background image from **repeating** horizontally or vertically.  
+- The image appears **only once**.
+
+### Example
+```html
+<div style="width:300px; height:200px; background-image: url('logo.png'); background-repeat: no-repeat;">
+  This div has a single background image.
+</div>
+```
+
+# 🎯 CSS `background-position` Property
+
+The `background-position` property defines the **starting position** of a background image inside an element.  
+
+---
+
+## 🔹 `center`
+- Places the background image in the **center** of the element (both horizontally and vertically).  
+- Works best with `background-repeat: no-repeat;` and `background-size: cover;` for a neat effect.
+
+### Example
+```html
+<div style="width:300px; height:200px; 
+            background-image: url('logo.png'); 
+            background-repeat: no-repeat; 
+            background-position: center;">
+  This div has a centered background image.
+</div>
+```
+# 🌄 CSS `background-attachment` Property
+
+The `background-attachment` property specifies **whether a background image scrolls with the page** or is fixed (stays in place).  
+
+---
+
+## 🔹 Values
+
+1. **scroll** (default)  
+The background image scrolls along with the page.  
+
+```html
+<div style="height:200px; background-image:url('bg.jpg'); background-attachment: scroll;"> Background scrolls with the content.
+</div>
+```
