@@ -692,3 +692,74 @@ The `<iframe>` element is used to **embed another HTML page** (or external conte
 ```html
 <iframe src="URL" width="width" height="height" title="description"></iframe>
 ```
+# 🌐 HTML `<head>` Element
+
+The `<head>` element contains **meta-information about the HTML document**.  
+- It does **not display content directly** on the webpage.  
+- Typically includes things like **title, meta tags, links to CSS/JS, and favicon**.  
+
+---
+
+## 🔹 Syntax
+```html
+<head>
+  <!-- meta tags, title, links, scripts go here -->
+</head>
+```
+# 🌐 HTML Semantic Elements
+
+**Semantic elements** clearly describe their **meaning and purpose** in the HTML structure.  
+- Helps browsers, developers, and search engines understand the content.  
+- Improves **accessibility** and **SEO**.  
+
+---
+
+## 🔹 Common Semantic Elements
+
+| Element       | Description |
+|---------------|-------------|
+| `<header>`    | Represents the **header** of a page or section |
+| `<nav>`       | Defines **navigation links** |
+| `<main>`      | Main content of the document |
+| `<section>`   | Defines a **section** in the document |
+| `<article>`   | Independent, self-contained **article** |
+| `<aside>`     | Sidebar or content **related to main content** |
+| `<footer>`    | Footer of a page or section |
+| `<figure>`    | Represents **illustrations or images** with optional caption |
+| `<figcaption>`| Caption for the `<figure>` element |
+
+---
+
+## 🔹 Example
+```html
+<body>
+  <header>
+    <h1>My Website</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Us</h2>
+      <p>This is the about section.</p>
+    </section>
+
+    <article>
+      <h2>Latest Article</h2>
+      <p>This is an independent article.</p>
+    </article>
+
+    <aside>
+      <h3>Related Info</h3>
+      <p>Sidebar content goes here.</p>
+    </aside>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Website</p>
+  </footer>
+</body>
+```
