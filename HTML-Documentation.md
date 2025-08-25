@@ -324,4 +324,15 @@ The `<bdo>` (Bi-Directional Override) element is used to **override the current 
 <bdo dir="rtl">This text will go right to left.</bdo>
 ```
 
+# 🌐 HTML Comments
 
+HTML comments are used to **add notes or explanations** in the code.  
+- Comments are **not displayed** in the browser.  
+- Useful for documentation, reminders, or temporarily disabling code.
+
+---
+
+## Syntax
+```html
+<!-- This is a comment -->
+```
