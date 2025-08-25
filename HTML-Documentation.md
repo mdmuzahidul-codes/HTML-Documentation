@@ -615,4 +615,23 @@ The main tags for tables are:
 </table>
 ```
 
+# 📋 HTML Lists
 
+HTML provides different types of lists to organize content:
+
+1. **Ordered List (`<ol>`)** → items are numbered  
+2. **Unordered List (`<ul>`)** → items are bulleted  
+3. **Description List (`<dl>`)** → items have terms and descriptions  
+
+---
+
+## 🔹 1. Ordered List (`<ol>`)
+
+### Example:
+```html
+<ol>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+</ol>
+```
