@@ -336,3 +336,94 @@ HTML comments are used to **add notes or explanations** in the code.
 ```html
 <!-- This is a comment -->
 ```
+# 🌐 HTML Colors
+
+HTML allows you to set colors for text, backgrounds, borders, and more using different methods.
+
+---
+
+## 1. Color Names
+You can use predefined color names like `red`, `blue`, `green`, etc.
+
+### Example
+```html
+<p style="color: red;">This text is red.</p>
+<p style="background-color: yellow;">This background is yellow.</p>
+```
+# 🎨 Hexadecimal Colors in HTML
+
+Hexadecimal (Hex) colors are widely used in HTML and CSS to represent colors.  
+A hex color code starts with **`#`** followed by **six hexadecimal digits**.
+
+---
+
+## 🔹 Structure
+- **RR** = Red (00 to FF)  
+- **GG** = Green (00 to FF)  
+- **BB** = Blue (00 to FF)  
+
+Each pair ranges from **00 (0)** to **FF (255 in decimal)**.
+
+---
+
+## 🔹 Examples
+
+### Example 1: Red
+```html
+<p style="color: #FF0000;">This text is red.</p>
+```
+# 🎨 RGB Colors in HTML
+
+RGB stands for **Red, Green, Blue**.  
+You can define colors by specifying the intensity of each color using numbers from **0 to 255**.
+
+---
+
+## 🔹 Syntax
+```css
+rgb(red, green, blue)
+```
+<p style="color: rgba(255, 0, 0, 0.5);">This text is semi-transparent red.</p>
+<p style="background-color: rgba(0, 255, 0, 0.3);">This background is semi-transparent green.</p>
+```
+# 🎨 RGBA Colors in HTML
+
+RGBA is an extension of RGB that includes an **Alpha** channel for **opacity**.  
+- **R** → Red (0–255)  
+- **G** → Green (0–255)  
+- **B** → Blue (0–255)  
+- **A** → Alpha (0.0–1.0) → determines transparency  
+
+---
+
+## 🔹 Syntax
+```css
+rgba(red, green, blue, alpha)
+```
+# 🎨 HSL Colors in HTML
+
+HSL stands for **Hue, Saturation, Lightness**.  
+- **Hue (H)** → color type (0–360 degrees on the color wheel)  
+- **Saturation (S)** → intensity of the color (0% = gray, 100% = full color)  
+- **Lightness (L)** → brightness (0% = black, 50% = normal, 100% = white)  
+
+---
+
+## 🔹 Syntax
+```css
+hsl(hue, saturation%, lightness%)
+```
+# 🎨 HSLA Colors in HTML
+
+HSLA is an extension of HSL that includes an **Alpha** channel for **opacity**.  
+- **H** → Hue (0–360 degrees)  
+- **S** → Saturation (0%–100%)  
+- **L** → Lightness (0%–100%)  
+- **A** → Alpha (0.0–1.0) → determines transparency  
+
+---
+
+## 🔹 Syntax
+```css
+hsla(hue, saturation%, lightness%, alpha)
+```
