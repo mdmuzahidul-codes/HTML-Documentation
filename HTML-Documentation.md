@@ -71,5 +71,68 @@ It does **not** include the full URL. The browser looks for the file starting fr
 ```html
 <img src="images/logo.png" alt="Logo">
 ```
+# 🌐 HTML Headings
+
+## 📌 What are Headings?
+Headings in HTML are used to define **titles and subtitles** on a webpage.  
+They range from `<h1>` to `<h6>`, where `<h1>` is the **largest and most important**, and `<h6>` is the **smallest**.
+
+---
+
+## ✅ Headings Examples
+
+### Example: `<h1>` to `<h6>`
+```html
+<h1>This is Heading 1</h1>
+<h2>This is Heading 2</h2>
+<h3>This is Heading 3</h3>
+<h4>This is Heading 4</h4>
+<h5>This is Heading 5</h5>
+<h6>This is Heading 6</h6>
+```
+# 🌐 HTML Paragraph, Preformatted, and Horizontal Rule Elements
+
+---
+
+## 1. Paragraph (`<p>`)
+
+The `<p>` element defines a **paragraph** in HTML.  
+
+### Example
+```html
+<p>This is a paragraph of text.</p>
+```
+
+# 🌐 HTML `<pre>` Elements
+
+---
+
+## 2. Preformatted Text (`<pre>`)
+
+The `<pre>` element defines **preformatted text**.  
+Text inside `<pre>` **preserves spaces, line breaks, and indentation**.
+
+### Example
+```html
+<pre>
+  This is preformatted text.
+      It preserves spaces and line breaks.
+</pre>
+```
+# 🌐 HTML `<hr>` Element
+
+---
+## 3. Horizontal Line (`<hr>`)
+
+The `<hr>` element defines a **horizontal line** (divider) in an HTML page.  
+It is a **self-closing tag** and does not require an end tag.
+
+---
+
+## Example
+```html
+<hr>
+```
+
 
 
