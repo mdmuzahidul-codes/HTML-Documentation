@@ -427,3 +427,37 @@ HSLA is an extension of HSL that includes an **Alpha** channel for **opacity**.
 ```css
 hsla(hue, saturation%, lightness%, alpha)
 ```
+# 🌐 HTML Links (`<a>`)
+
+The `<a>` element defines a **hyperlink**, which allows users to navigate to another page, a different section of the same page, or an external website.
+
+---
+
+## 🔹 Syntax
+```html
+<a href="URL">Link Text</a>
+```
+# 🌐 HTML `target` Attribute
+
+The `target` attribute specifies **where to open the linked document**.  
+It is used inside the `<a>` (anchor) tag.
+
+---
+
+## 🔹 Common Values
+
+| Value          | Description                                  |
+|----------------|----------------------------------------------|
+| `_self`        | Opens the link in the **same tab** (default) |
+| `_blank`       | Opens the link in a **new tab**              |
+| `_parent`      | Opens the link in the **parent frame**       |
+| `_top`         | Opens the link in the **full body of the window** |
+
+---
+
+## 🔹 Examples
+
+### Open in a New Tab
+```html
+<a href="https://www.example.com" target="_blank">Open Example in New Tab</a>
+```
