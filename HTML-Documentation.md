@@ -656,3 +656,15 @@ HTML elements are generally categorized into **Block-level** and **Inline** elem
   <p>This is a paragraph inside a div.</p>
 </div>
 ```
+# 🌐 HTML `class` Attribute
+
+The `class` attribute is used to **assign one or more class names to an HTML element**.  
+- Classes are commonly used with **CSS** and **JavaScript** to style or manipulate elements.  
+- Multiple elements can share the same class.  
+
+---
+
+## 🔹 Syntax
+```html
+<tagname class="classname">Content</tagname>
+```
