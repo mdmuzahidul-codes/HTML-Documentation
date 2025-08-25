@@ -90,7 +90,7 @@ They range from `<h1>` to `<h6>`, where `<h1>` is the **largest and most importa
 <h5>This is Heading 5</h5>
 <h6>This is Heading 6</h6>
 ```
-# 🌐 HTML Paragraph, Preformatted, and Horizontal Rule Elements
+# 🌐 HTML Paragraph, Preformatted,Line break and Horizontal Rule Elements
 
 ---
 
@@ -133,6 +133,22 @@ It is a **self-closing tag** and does not require an end tag.
 ```html
 <hr>
 ```
+# 🌐 HTML `<br>` Element
+
+---
+## 4. Line Break (`<br>`)
+
+The `<br>` element defines a **line break** in HTML.  
+- It is a **self-closing tag** and does not require an end tag.  
+- Used to **start a new line** without creating a new paragraph.
+
+---
+
+## Example
+```html
+<p>This is line one.<br>This is line two.</p>
+```
+
 
 
 
