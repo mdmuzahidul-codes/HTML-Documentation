@@ -17,3 +17,16 @@ It defines the **structure** of a webpage and is the backbone of web development
 - 👨‍💻 **Invented by Tim Berners-Lee in 1991**  
 
 ---
+
+# 🌐 HTML Elements
+
+## Definition
+An **HTML element** is a building block of a webpage.  
+It consists of a **start tag**, **content**, and an **end tag**.  
+Some elements are **self-closing**, meaning they don’t have content.
+
+## Syntax
+```html
+<tagname>Content goes here</tagname>
+```
+
