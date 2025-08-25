@@ -589,4 +589,30 @@ It helps identify a website easily.
 ```html
 <link rel="icon" type="image/x-icon" href="favicon.ico">
 ```
+# 📊 HTML Tables
+
+HTML tables are used to **display data in rows and columns**.  
+The main tags for tables are:
+
+- `<table>` → Defines the table  
+- `<tr>` → Table row  
+- `<th>` → Table header (bold and centered by default)  
+- `<td>` → Table data (cell content)  
+
+---
+
+## 🔹 Basic Syntax
+```html
+<table>
+  <tr>
+    <th>Header 1</th>
+    <th>Header 2</th>
+  </tr>
+  <tr>
+    <td>Data 1</td>
+    <td>Data 2</td>
+  </tr>
+</table>
+```
+
 
