@@ -461,3 +461,16 @@ It is used inside the `<a>` (anchor) tag.
 ```html
 <a href="https://www.example.com" target="_blank">Open Example in New Tab</a>
 ```
+# 🌐 HTML `<img>` Element
+
+The `<img>` element is used to **embed images** in an HTML page.  
+- It is a **self-closing tag** and does not require an end tag.  
+- The `src` attribute specifies the **path to the image**.  
+- The `alt` attribute provides **alternative text** if the image cannot be displayed.  
+
+---
+
+## 🔹 Syntax
+```html
+<img src="image.jpg" alt="Description of image">
+```
