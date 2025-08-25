@@ -635,3 +635,24 @@ HTML provides different types of lists to organize content:
   <li>Third item</li>
 </ol>
 ```
+# 📦 HTML Block and Inline Elements
+
+HTML elements are generally categorized into **Block-level** and **Inline** elements.  
+
+---
+
+## 🔹 1. Block-level Elements
+- Take up the **full width** of their container by default.  
+- Start on a **new line**.  
+- Can contain **other block-level or inline elements**.  
+
+### Common Block Elements
+`<div>`, `<p>`, `<h1>` to `<h6>`, `<ul>`, `<ol>`, `<table>`, `<section>`, `<article>`  
+
+### Example:
+```html
+<div>
+  <h1>Heading</h1>
+  <p>This is a paragraph inside a div.</p>
+</div>
+```
