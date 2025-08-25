@@ -218,5 +218,110 @@ HTML provides several tags to format text in different ways.
 <p><u>My name is Muzahid.</u></p>
 ```
 
+# 🌐 HTML Quotations
+
+HTML provides tags to define quotations and cited text.
+
+---
+
+## 1. Blockquote (`<blockquote>`)
+
+The `<blockquote>` element is used for **long quotations**.  
+It usually displays as an **indented block**.
+
+### Example
+```html
+<blockquote>
+  "The only limit to our realization of tomorrow is our doubts of today."
+</blockquote>
+```
+# 🌐 HTML `<q>` Element
+
+---
+## 2. Inline Quotations (`<q>`)
+
+The `<q>` element is used for **short, inline quotations**.  
+Browsers usually add **quotation marks automatically** around the content.
+
+---
+
+## Example
+```html
+<p>Albert Einstein said, <q>Imagination is more important than knowledge.</q></p>
+```
+# 🌐 HTML `<abbr>` Element
+
+---
+## 3. Abbreviation (`<abbr>`)
+
+The `<abbr>` element is used to represent an **abbreviation or acronym**.  
+- You can provide the **full form** using the `title` attribute.  
+- When hovered over in a browser, the full form is usually displayed as a tooltip.
+
+---
+
+## Example
+```html
+<p>The <abbr title="HyperText Markup Language">HTML</abbr> tutorial is very helpful.</p>
+```
+# 🌐 HTML `<cite>` Element
+
+---
+## 4. itle of a creative work (`<cite>`)
+
+The `<cite>` element is used to define the **title of a creative work**, such as:  
+- A book  
+- A poem  
+- A song  
+- A movie  
+- A painting, etc.  
+
+It usually appears in *italic* style by default in browsers.  
+
+---
+
+## Example
+```html
+<p><cite>The Mona Lisa</cite> was painted by Leonardo da Vinci.</p>
+```
+# 🌐 HTML `<address>` Element
+
+---
+## 5. Contact Information (`<address>`)
+
+The `<address>` element is used to define **contact information** for a person, company, or organization.  
+- It usually displays the content in **italic** by default.  
+- Often used for email, physical address, phone numbers, or author info.  
+
+---
+
+## Example
+```html
+<address>
+  John Doe<br>
+  123 Main Street<br>
+  New York, NY 10001<br>
+  Email: <a href="mailto:johndoe@example.com">johndoe@example.com</a>
+</address>
+```
+# 🌐 HTML `<bdo>` Element
+
+---
+## 7. Override the current text direction (`<bdo>`)
+
+The `<bdo>` (Bi-Directional Override) element is used to **override the current text direction**.  
+- By default, text direction is **left-to-right (LTR)**.  
+- You can change it to **right-to-left (RTL)** using the `dir` attribute.  
+
+---
+
+## Example
+```html
+<p>Default text direction:</p>
+<p>This text goes left to right.</p>
+
+<p>Using BDO to change direction:</p>
+<bdo dir="rtl">This text will go right to left.</bdo>
+```
 
 
