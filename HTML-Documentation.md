@@ -551,3 +551,30 @@ The background image scrolls along with the page.
 <div style="height:200px; background-image:url('bg.jpg'); background-attachment: scroll;"> Background scrolls with the content.
 </div>
 ```
+# 🌄 CSS `background-attachment: fixed;`
+
+The `fixed` value makes the **background image stay in place** while the rest of the content **scrolls over it**.  
+
+---
+
+## 🔹 Example
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  height: 1000px; /* for scrolling */
+  background-image: url('bg.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+</style>
+</head>
+<body>
+  <h1>Scroll down to see the fixed background effect</h1>
+  <p>Content will move, but the background stays in place.</p>
+</body>
+</html>
+
