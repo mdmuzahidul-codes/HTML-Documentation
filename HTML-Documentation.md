@@ -148,7 +148,75 @@ The `<br>` element defines a **line break** in HTML.
 ```html
 <p>This is line one.<br>This is line two.</p>
 ```
+# 🌐 HTML Text Formatting Tags
 
+HTML provides several tags to format text in different ways.
+
+| Tag       | Meaning             |
+|-----------|-------------------|
+| `<b>`     | Bold text          |
+| `<strong>`| Important text     |
+| `<i>`     | Italic text        |
+| `<em>`    | Emphasized text    |
+| `<mark>`  | Marked/Highlighted text |
+| `<small>` | Smaller text       |
+| `<del>`   | Deleted text       |
+| `<ins>`   | Inserted text      |
+| `<sub>`   | Subscript text     |
+| `<sup>`   | Superscript text   |
+
+---
+
+## Examples
+
+### Bold Text
+```html
+<p>This is <b>bold</b> text.</p>
+```
+### Important Text
+```html
+<p>This is <strong>important</strong> text.</p>
+```
+### Italic Text
+```html
+<p>This is <i>italic</i> text.</p>
+```
+### Emphasized Text
+```html
+<p>This is <em>emphasized</em> text.</p>
+```
+### Marked/Highlighted Text
+```html
+<p>This is <mark>highlighted</mark> text.</p>
+```
+### Smaller Text
+```html
+<p>This is <small>smaller</small> text.</p>
+```
+### Deleted Text
+```html
+<p>This is <del>deleted</del> text.</p>
+```
+### Inserted Text
+```html
+<p>This is <ins>inserted</ins> text.</p>
+```
+### Subscript Text
+```html
+<p>H<sub>2</sub>O is water.</p>
+```
+### Superscript Text
+```html
+<p>2<sup>5</sup> = 32</p>
+```
+### Subscript Text
+```html
+<p>H<sub>2</sub>O is water.</p>
+```
+### Underline Text
+```html
+<p><u>My name is Muzahid.</u></p>
+```
 
 
 
