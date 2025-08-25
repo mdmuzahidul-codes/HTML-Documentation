@@ -29,4 +29,20 @@ Some elements are **self-closing**, meaning they don’t have content.
 ```html
 <tagname>Content goes here</tagname>
 ```
+# 🌐 HTML Attributes
+
+## 📌 What is an Attribute in HTML?
+An **HTML attribute** is additional information that provides more details about an HTML element.  
+- Attributes are always **specified in the start tag** of an element.  
+- They usually come in **name/value pairs** like: name="value"
+
+---
+
+## 🔗 Example: `href` Attribute
+The `<a>` tag defines a **hyperlink**.  
+The `href` attribute specifies the **URL of the page** the link goes to.
+
+```html
+<a href="https://www.example.com">Visit Example</a>
+```
 
