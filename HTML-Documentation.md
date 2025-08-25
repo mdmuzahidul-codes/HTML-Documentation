@@ -46,3 +46,30 @@ The `href` attribute specifies the **URL of the page** the link goes to.
 <a href="https://www.example.com">Visit Example</a>
 ```
 
+# 🌐 HTML Paths
+
+## 📌 What is a Path in HTML?
+A **path** tells the browser **where to find a file**, like an image, CSS, or another page.  
+There are two types of paths in HTML:
+
+---
+
+## 1. Absolute Path
+An **absolute path** specifies the **full URL** or **full location** of a file.  
+It always starts from the root or includes the domain name.
+
+### Example
+```html
+<img src="https://www.example.com/images/logo.png" alt="Logo">
+```
+
+## 2. Relative Path
+A **relative path** specifies the location of a file **relative to the current HTML file**.  
+It does **not** include the full URL. The browser looks for the file starting from the location of the current page.
+
+### Example
+```html
+<img src="images/logo.png" alt="Logo">
+```
+
+
